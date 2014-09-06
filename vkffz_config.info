@@ -3,6 +3,7 @@ description = Site-specifc configuration for vkffz.ch.
 core = 7.x
 package = Füür
 dependencies[] = ctools
+dependencies[] = menu_block
 dependencies[] = page_manager
 dependencies[] = panels_everywhere
 dependencies[] = strongarm
