@@ -66,6 +66,7 @@ function vkffz_config_default_page_manager_handlers() {
     );
     $pane->cache = array();
     $pane->style = array(
+      'style' => 'default',
       'settings' => NULL,
     );
     $pane->css = array();
@@ -85,6 +86,7 @@ function vkffz_config_default_page_manager_handlers() {
     $pane->configuration = array();
     $pane->cache = array();
     $pane->style = array(
+      'style' => 'default',
       'settings' => NULL,
     );
     $pane->css = array();
@@ -103,13 +105,13 @@ function vkffz_config_default_page_manager_handlers() {
     $pane->access = array();
     $pane->configuration = array(
       'context' => 'argument_page_content_1',
-      'override_title' => 0,
+      'override_title' => 1,
       'override_title_text' => '',
     );
     $pane->cache = array();
     $pane->style = array(
+      'style' => 'default',
       'settings' => NULL,
-      'style' => 'naked',
     );
     $pane->css = array();
     $pane->extras = array();
@@ -118,6 +120,29 @@ function vkffz_config_default_page_manager_handlers() {
     $pane->uuid = '69f5b37b-6fa3-4d33-a953-4e753579ed44';
     $display->content['new-69f5b37b-6fa3-4d33-a953-4e753579ed44'] = $pane;
     $display->panels['content'][2] = 'new-69f5b37b-6fa3-4d33-a953-4e753579ed44';
+    $pane = new stdClass();
+    $pane->pid = 'new-b9acc7bf-a23f-4f22-899c-39c655e191eb';
+    $pane->panel = 'footer';
+    $pane->type = 'block';
+    $pane->subtype = 'system-powered-by';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'style' => 'default',
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'b9acc7bf-a23f-4f22-899c-39c655e191eb';
+    $display->content['new-b9acc7bf-a23f-4f22-899c-39c655e191eb'] = $pane;
+    $display->panels['footer'][0] = 'new-b9acc7bf-a23f-4f22-899c-39c655e191eb';
     $pane = new stdClass();
     $pane->pid = 'new-37fec951-2f1b-4b0b-a1ad-b2e950089ea4';
     $pane->panel = 'header';
@@ -128,6 +153,7 @@ function vkffz_config_default_page_manager_handlers() {
     $pane->configuration = array();
     $pane->cache = array();
     $pane->style = array(
+      'style' => 'default',
       'settings' => NULL,
     );
     $pane->css = array();
@@ -160,6 +186,7 @@ function vkffz_config_default_page_manager_handlers() {
     );
     $pane->cache = array();
     $pane->style = array(
+      'style' => 'default',
       'settings' => NULL,
     );
     $pane->css = array();
@@ -169,6 +196,39 @@ function vkffz_config_default_page_manager_handlers() {
     $pane->uuid = '3046ea5b-9596-4300-bb28-700625351c2e';
     $display->content['new-3046ea5b-9596-4300-bb28-700625351c2e'] = $pane;
     $display->panels['header'][1] = 'new-3046ea5b-9596-4300-bb28-700625351c2e';
+    $pane = new stdClass();
+    $pane->pid = 'new-e98f6a52-790a-4ca1-9ca1-dc94d68877bf';
+    $pane->panel = 'sidebar';
+    $pane->type = 'menu_tree';
+    $pane->subtype = 'main-menu';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'menu_name' => 'main-menu',
+      'parent_mlid' => 0,
+      'parent' => 'main-menu:0',
+      'title_link' => 0,
+      'admin_title' => 'Main menu, level 2+',
+      'level' => '2',
+      'follow' => 0,
+      'depth' => '0',
+      'expanded' => 0,
+      'sort' => 0,
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+      'style' => 'default',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'e98f6a52-790a-4ca1-9ca1-dc94d68877bf';
+    $display->content['new-e98f6a52-790a-4ca1-9ca1-dc94d68877bf'] = $pane;
+    $display->panels['sidebar'][0] = 'new-e98f6a52-790a-4ca1-9ca1-dc94d68877bf';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-69f5b37b-6fa3-4d33-a953-4e753579ed44';
   $handler->conf['display'] = $display;
