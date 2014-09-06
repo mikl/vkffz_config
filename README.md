@@ -1,5 +1,4 @@
-VKFFZ Config
-============
+Deprecated
+==========
 
-Drupal Feature module for the site-specific settings for the website for
-Verkehrskorps der Freiwilligen Feuerwehr der Stadt Zug.
+This repo is no longer used and only kept for legacy purposes.
